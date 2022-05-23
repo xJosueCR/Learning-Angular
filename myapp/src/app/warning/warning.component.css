@@ -1,0 +1,8 @@
+.div {
+    background-color: rgb(255, 166, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: larger;
+    padding: 20px;
+    border: 1px solid black
+}

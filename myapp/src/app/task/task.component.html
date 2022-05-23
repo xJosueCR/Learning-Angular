@@ -1,0 +1,13 @@
+<button class="btn btn-primary" (click)="onToggleContent()">Display Details</button>
+<p *ngIf="hidden">Secret Password = tuna</p>
+<div *ngFor="let click of clicks" >
+    <p *ngIf="click < 5; else plusFive">{{click}}</p>
+    <ng-template #plusFive>
+        <p 
+        [ngStyle]="{backgroundColor: 'blue'}"
+        [ngClass]="{five: click > 4}">
+            {{click}}
+        </p>
+    </ng-template>
+</div>
+

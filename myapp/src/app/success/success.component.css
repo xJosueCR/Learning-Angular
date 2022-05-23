@@ -1,0 +1,8 @@
+.div {
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: larger;
+    padding: 20px;
+    border: 1px solid black
+}

@@ -1,0 +1,8 @@
+/recipies/**
+**/node_modules/**
+**/dist/**
+**/e2e/
+
+# System files
+**/.DS_Store
+**/Thumbs.db
